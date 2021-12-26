@@ -834,7 +834,6 @@
     }
 
     #video-section .modal.show .modal-dialog {
-        -webkit-transform: translate(0, 0);
         transform: translate(1%, 118%);
     }
 
