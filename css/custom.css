@@ -523,7 +523,6 @@ h5 {
 #video-section .modal-content {
     background: transparent;
     border: none;
-    width: 10in;
 }
 
 #video-section .close {
@@ -531,7 +530,9 @@ h5 {
 }
 
 #video-section .modal.show .modal-dialog {
-    transform: translate(-45%, 3%);
+    transform: translateY(8%);
+    max-width: 55rem;
+    margin: 1.7rem auto;
 }
 
 .video-overlay img {
@@ -551,7 +552,6 @@ h5 {
 #video-section .modal-body video {
     width: 100%;
 }
-
 
 
 /*======================================
